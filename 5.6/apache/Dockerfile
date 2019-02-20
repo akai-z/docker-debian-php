@@ -28,6 +28,7 @@ RUN set -x \
     && docker-php-ext-install -j${NPROC} \
         bcmath \
         gd \
+        gettext \
         intl \
         mysqli \
         pdo_mysql \
