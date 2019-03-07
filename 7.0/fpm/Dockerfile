@@ -238,7 +238,7 @@ RUN set -x \
         libzip-dev \
     " \
     && apt-get update \
-    && apt-get install -y \
+    && apt-get install -y --no-install-recommends \
         $build_deps \
         libfreetype6 \
         libicu57 \
