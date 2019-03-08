@@ -13,7 +13,7 @@ RUN set -x \
     " \
     && apt-get update \
     && apt-get install -y \
-        $build_deps
+        $build_deps \
         libfreetype6 \
         libicu57 \
         libjpeg62-turbo \
