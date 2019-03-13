@@ -2,6 +2,9 @@ FROM debian:stretch-slim
 
 LABEL maintainer="Ammar K."
 
+# This Dockerfile includes the official PHP image Dockerfile content.
+# As PHP 7.0 reached end of life and was removed from the official repository.
+
 # prevent Debian's PHP packages from being installed
 # https://github.com/docker-library/php/pull/542
 RUN set -eux; \
