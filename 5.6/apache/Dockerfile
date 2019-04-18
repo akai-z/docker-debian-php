@@ -293,7 +293,7 @@ RUN set -x \
         --auto-remove -o APT::AutoRemove::RecommendsImportant=false \
         $build_deps
 
-EXPOSE 80
-
 ENTRYPOINT ["docker-php-entrypoint"]
+
+EXPOSE 80
 CMD ["apache2-foreground"]
