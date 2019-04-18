@@ -269,7 +269,7 @@ RUN set -x \
         --auto-remove -o APT::AutoRemove::RecommendsImportant=false \
         $build_deps
 
-EXPOSE 9000
-
 ENTRYPOINT ["docker-php-entrypoint"]
+
+EXPOSE 9000
 CMD ["php-fpm"]
