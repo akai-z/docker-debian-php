@@ -15,7 +15,6 @@ RUN set -x \
     && apt-get install -y $build_deps \
     && apt-get install -y \
         libfreetype6 \
-        libicu57 \
         libjpeg62-turbo \
         libpng16-16 \
         libxslt1.1 \
