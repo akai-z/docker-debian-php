@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -eo pipefail
+set -e
 
 extensions="$(printenv | grep "DOCKER_PHP")"
 
