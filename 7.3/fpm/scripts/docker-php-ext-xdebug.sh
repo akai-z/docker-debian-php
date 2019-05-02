@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -eo pipefail
+set -e
 
 readonly VERSION="2.7.0beta1"
 
