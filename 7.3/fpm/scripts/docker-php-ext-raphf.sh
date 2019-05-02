@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -eo pipefail
+set -e
 
 pecl install raphf
 docker-php-ext-enable raphf
