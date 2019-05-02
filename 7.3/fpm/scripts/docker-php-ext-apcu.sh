@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -eo pipefail
+set -e
 
 pecl install apcu
 docker-php-ext-enable apcu
