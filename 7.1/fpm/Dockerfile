@@ -12,8 +12,8 @@ RUN set -x \
         libzip-dev \
     " \
     && apt-get update \
-    && apt-get install -y $build_deps \
     && apt-get install -y \
+        $build_deps \
         libfreetype6 \
         libjpeg62-turbo \
         libpng16-16 \
