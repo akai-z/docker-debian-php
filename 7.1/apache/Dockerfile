@@ -7,6 +7,7 @@ RUN set -x \
         libfreetype6-dev \
         libicu-dev \
         libjpeg62-turbo-dev \
+        libmcrypt-dev \
         libpng-dev \
         libxslt-dev \
         libzip-dev \
@@ -16,6 +17,7 @@ RUN set -x \
         $build_deps \
         libfreetype6 \
         libjpeg62-turbo \
+        libmcrypt4 \
         libpng16-16 \
         libxslt1.1 \
         libzip4 \
@@ -29,6 +31,7 @@ RUN set -x \
         gd \
         gettext \
         intl \
+        mcrypt \
         mysqli \
         pdo_mysql \
         soap \
