@@ -2,7 +2,7 @@
 
 set -e
 
-readonly VERSION="1.1.2"
+readonly VERSION="1.2"
 
 apt-get install libssh2-1-dev -y --no-install-recommends
 
