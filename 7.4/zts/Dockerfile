@@ -1,4 +1,4 @@
-FROM php:7.4-zts-buster
+FROM php:7.4-zts
 
 LABEL maintainer="Ammar K."
 
