@@ -1,4 +1,4 @@
-FROM php:7.3-zts-stretch
+FROM php:7.3-zts
 
 LABEL maintainer="Ammar K."
 
